@@ -1,12 +1,11 @@
-
-
 /* Add these styles at the beginning of your CSS file */
 * {
     max-width: 100%;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -52,14 +51,16 @@ nav {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #333; /* Adjust color to match your design */
+    color: #333;
+    /* Adjust color to match your design */
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
     nav {
         position: relative;
-        padding-right: 50px; /* Make room for the toggle button */
+        padding-right: 50px;
+        /* Make room for the toggle button */
     }
 
     .nav-links {
@@ -81,7 +82,8 @@ nav {
         margin-top: 1rem;
     }
 
-    .login-btn, .signup-btn {
+    .login-btn,
+    .signup-btn {
         width: 100%;
         text-align: center;
     }
@@ -101,7 +103,8 @@ nav {
         text-align: center;
     }
 
-    .hero-content, .wrapper {
+    .hero-content,
+    .wrapper {
         width: 100%;
     }
 
@@ -151,17 +154,18 @@ nav {
     padding: 0px;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    max-width: 100vw; 
+    max-width: 100vw;
 }
 
 
-html,body {
-    min-height: 100vh; 
+html,
+body {
+    min-height: 100vh;
     width: 100%;
     height: 100%;
-    
 
- }  
+
+}
 
 
 
@@ -239,7 +243,8 @@ nav {
     max-width: 50%;
 }
 
-.login-btn, .signup-btn {
+.login-btn,
+.signup-btn {
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
     border: none;
@@ -455,18 +460,20 @@ p {
     background: #FF8C00;
     color: #fff;
 }
+
 span img {
     margin-left: 160px;
 }
 
-span.badge{
+span.badge {
     border-radius: 5px;
     font-size: 16px;
     background: #FFFFFF4A;
-    
+
     display: block;
     margin-left: 200px;
 }
+
 /* Pricing Cards Container */
 .pricing-cards {
     display: flex;
@@ -474,8 +481,9 @@ span.badge{
     gap: 66px;
     flex-wrap: wrap;
 }
-.pricing-cards p{
-    
+
+.pricing-cards p {
+
     color: #6F6C90;
     width: 278px;
     height: 60px;
@@ -488,8 +496,8 @@ span.badge{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
-    
-/* font-family: DM Sans;
+
+    /* font-family: DM Sans;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
@@ -520,13 +528,14 @@ text-decoration-skip-ink: none; */
 }
 
 .pricing-card.pro {
-    
+
     background: #FF8C00;
     color: white;
     margin: -54px 13px 32px 1px;
-    
+
 
 }
+
 /* .pricing-card.pro p{
     font-family: Poppins;
 font-size: 18px;
@@ -566,7 +575,7 @@ opacity: 0px;
 }
 
 .plan-header .badge {
-    background:#FFFFFF4A;
+    background: #FFFFFF4A;
     color: #fff;
     padding: 0.3rem 0.7rem;
     font-size: 0.8rem;
@@ -596,20 +605,20 @@ h4 {
 
 h4 span {
     font-size: 1rem;
-    color:rgb(24, 22, 22);
+    color: rgb(24, 22, 22);
 }
 
 /* Buttons */
 .btn {
     background: #54516B;
 
-    /* background: #FF8C00; */ 
-     color: white;
+    /* background: #FF8C00; */
+    color: white;
     border: none;
     border-radius: 100px;
     /* padding: 0.5rem 1rem; */
     padding: 1.5rem 0.5rem;
-    
+
     cursor: pointer;
     width: 100%;
     font-size: 1rem;
@@ -627,7 +636,7 @@ opacity: 0px; */
     background: white;
     color: #FF8C00;
     border: 2px solid #FF8C00;
-    
+
 }
 
 /* Footer */
@@ -995,74 +1004,73 @@ thead th:nth-child(4) {
 }
 .header {
     padding: 20px 100px; */
-/* } */ */
-
-footer {
+/* } */
+*/ footer {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
     background-color: #fff;
     color: #000;
-  }
-  
-  .footer-links a {
+}
+
+.footer-links a {
     margin: 0 15px;
     text-decoration: none;
     color: #000;
     font-size: 14px;
-  }
-  
-  .footer-links a:hover {
+}
+
+.footer-links a:hover {
     text-decoration: underline;
-  }
-  
-  hr {
+}
+
+hr {
     margin: 20px auto;
     width: 80%;
     border: none;
     border-top: 1px solid #ccc;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     margin: 10px 0;
-  }
-  
-  .footer-bottom p {
+}
+
+.footer-bottom p {
     margin: 5px 0;
     font-size: 12px;
     color: #666;
-  }
-  
-  .footer-socials a {
+}
+
+.footer-socials a {
     margin: 0 8px;
     text-decoration: none;
     font-size: 18px;
     color: #000;
-  }
-  
-  .footer-socials a:hover {
+}
+
+.footer-socials a:hover {
     color: #0077cc;
-  }
-  
-  .footer-legal {
+}
+
+.footer-legal {
     /* margin: 15px 0; */
     margin-top: -53px;
     margin-right: -964px;
-  }
-  
-  .footer-legal a {
+}
+
+.footer-legal a {
     margin: 0 10px;
     font-size: 12px;
     color: #666;
     text-decoration: none;
-  }
-  
-  .footer-legal a:hover {
+}
+
+.footer-legal a:hover {
     text-decoration: underline;
-  }
+}
 
 
-  @media (max-width: 896px) {
+@media (max-width: 896px) {
 
     .hero,
     .features {
@@ -1076,16 +1084,19 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    .faq-section{
-        width: 90%; /* Adjust width to fit smaller screens */
-        margin-left: 13px;/* Center the container */
-        padding: 0px;        
+
+    .faq-section {
+        width: 90%;
+        /* Adjust width to fit smaller screens */
+        margin-left: 13px;
+        /* Center the container */
+        padding: 0px;
     }
 
-    
+
 }
 
-  /* @media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .nav-links {
         gap: 1rem;
         width: auto;
@@ -1111,5 +1122,3 @@ footer {
         margin: 0 auto;
     }
 } */
-
-  
